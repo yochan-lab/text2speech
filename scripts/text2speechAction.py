@@ -16,7 +16,7 @@ volume = "1.0"
 
 class SpeakServer:
     def __init__(self):
-        self.server = actionlib.SimpleActionServer('speak', SpeakAction, self.execute, False)
+        self.server = actionlib.SimpleActionServer('speak', speakAction, self.execute, False)
         server.start()
 
     def execute(self, goal):
