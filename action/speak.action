@@ -1,8 +1,0 @@
-#Goal
-string text_to_say
----
-#Result
-bool communication_successfull
----
-#Feedback message
-bool still_talking
